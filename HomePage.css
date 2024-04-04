@@ -8,6 +8,12 @@ body {
     margin: 0;
     padding: 0;
   }
+
+  body::after {
+    content: "";
+    display: block;
+    height: 100vh;
+  }
   
   nav {
     background-color: #d4af37;
@@ -28,8 +34,8 @@ body {
 
   
   nav a:hover {
-    background-color: #ddd;
-    color: black;
+    background-color: #dab37f;
+    color: rgb(175, 157, 115);
   }
   
   .nav-logo {
