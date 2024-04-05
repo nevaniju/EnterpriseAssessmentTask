@@ -1,7 +1,7 @@
 
 body {
     font-family: Arial, sans-serif;
-    background-image: url('/Users/nevaaa/Desktop/Enterprise Computing/in.jpeg');
+    background-image: url('/Users/nevaaa/Desktop/Enterprise Computing/Screenshot 2024-04-06 at 9.10.43 AM.png');
     background-size: cover; 
     background-position: center;
     background-attachment: scroll;
@@ -16,14 +16,14 @@ body {
   }
   
   nav {
-    background-color: #d4af37;
+    background-color: #b93232;
     overflow: hidden;
   }
   
   nav a {
     float: left;
     display: block;
-    color: #625730;
+    color: #250000;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
@@ -34,8 +34,8 @@ body {
 
   
       nav a:hover {
-        background-color: #dab37f;
-        color: rgb(175, 157, 115);
+        background-color: #864545;
+        color: rgb(116, 0, 0);
     }
   
   .nav-logo {
@@ -64,7 +64,7 @@ body {
   h1 {
    
     display: block;
-    color: #796a33;
+    color: #793333;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
