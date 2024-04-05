@@ -1,7 +1,7 @@
 
 body {
     font-family: Arial, sans-serif;
-    background-image: url('/Users/nevaaa/Desktop/Enterprise Computing/tajmahal.png');
+    background-image: url('/Users/nevaaa/Desktop/Enterprise Computing/in.jpeg');
     background-size: cover; 
     background-position: center;
     background-attachment: scroll;
@@ -27,16 +27,16 @@ body {
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
-    font-family: "Pacifico", cursive;
+    font-family: "Pacifico";
     font-weight: 400;
-    font-style: normal;
-      };
+    font-style: cursive;
+      }
 
   
-  nav a:hover {
-    background-color: #dab37f;
-    color: rgb(175, 157, 115);
-  }
+      nav a:hover {
+        background-color: #dab37f;
+        color: rgb(175, 157, 115);
+    }
   
   .nav-logo {
     float: left;
@@ -62,7 +62,7 @@ body {
   
 
   h1 {
-    float: center;
+   
     display: block;
     color: #796a33;
     text-align: center;
@@ -71,5 +71,7 @@ body {
     font-family: "Sofia";
     font-weight: 400;
     font-style: normal;
-    font-size: 300;
+    font-size: 5rem; 
+    padding: 10px 0; 
   }
+  
