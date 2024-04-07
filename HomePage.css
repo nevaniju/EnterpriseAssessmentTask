@@ -1,18 +1,49 @@
 
 body {
-    font-family: Arial, sans-serif;
-    background-image: url('/Users/nevaaa/Desktop/Enterprise Computing/Screenshot 2024-04-06 at 9.10.43 AM.png');
-    background-size: cover; 
-    background-position: center;
-    background-attachment: scroll;
-    margin: 0;
-    padding: 0;
-  }
+  font-family: 'Roboto', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-image: url('/Users/nevaaa/Desktop/Enterprise Computing/tajmahal.png');
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 0 20px;
+}
+
+header h1 {
+  font-size: 4rem;
+  color: white;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  margin-bottom: 0;
+}
+
+header h2 {
+  font-size: 2rem;
+  color: white;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  margin-top: 0;
+  margin-bottom: 20px;
+}
+
+header p {
+  font-size: 1.5rem;
+  color: white;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  margin-top: 0;
+}
 
   body::after {
     content: "";
     display: block;
-    height: 100vh;
+    height: 1o0vh;
   }
   
   nav {
@@ -71,7 +102,108 @@ body {
     font-family: "Sofia";
     font-weight: 400;
     font-style: normal;
-    font-size: 5rem; 
+    font-size: 7rem; 
     padding: 10px 0; 
+  }
+
+  h2 {
+
+    display: block;
+    color: #793333;
+    text-align: center;
+    text-decoration: none;
+    font-family: "Sofia";
+    font-weight: 400;
+    font-style: normal;
+    font-size: 4rem; 
+
+  }
+
+  footer {
+    background-color: #b93232;
+    color: white;
+    padding: 20px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .left-side {
+    flex: 1;
+    text-align: left;
+  }
+  
+  .right-side {
+    flex: 1;
+    text-align: right;
+  }
+  
+  .right-side ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: flex-end;
+  }
+  
+  .right-side li {
+    margin-left: 20px;
+  }
+  
+  .right-side a {
+    color: white;
+    text-decoration: none;
+  }
+  
+  .right-side a:hover {
+    text-decoration: underline;
+  }
+  
+  .right-side img {
+    height: 30px;
+    width: 30px;
+  }
+
+  .container {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .slideshow {
+    flex: 1;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+  }
+  
+  .slideshow img {
+    width: 100%;
+    height: auto;
+    display: block;
+    object-fit: cover;
+  }
+  
+  .video {
+    flex: 1;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .video iframe {
+    width: 100%;
+    height: auto;
+    display: block;
+    object-fit: cover;
   }
   
