@@ -3,7 +3,7 @@ body {
   font-family: 'Roboto', sans-serif;
   margin: 0;
   padding: 0;
-  background-color: #DDA77B;
+  background-color: #DDC8C4;
 }
 
 header {
@@ -19,7 +19,7 @@ header {
   h1 {
    
     display: block;
-    color: #793333;
+    color: #13070C;
     text-align: center;
     padding: 14px 16px;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
@@ -34,7 +34,7 @@ header {
 
 h2 {
     display: block;
-    color: #793333;
+    color: #13070C;
     text-align: center;
     text-decoration: none;
     font-family: "Sofia";
@@ -55,14 +55,14 @@ h2 {
   }
   
   nav {
-    background-color: #71677C;
+    background-color: #DDC8C4;
     overflow: hidden;
   }
   
   nav a {
     float: left;
     display: block;
-    color: #37123C;
+    color: #6B4D57;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
@@ -73,8 +73,8 @@ h2 {
 
   
       nav a:hover {
-        background-color: #945D5E;
-        color: #DDA77B;
+        background-color: #6B4D57;
+        color: #823E3E;
     }
   
   .nav-logo {
@@ -86,7 +86,7 @@ h2 {
   .nav-logo h1,
   .nav-logo h2 {
     margin: 0;
-    color: white;
+    color: DDD78D;
     font-size: 2rem;
     text-transform: uppercase;
   }
@@ -101,7 +101,7 @@ h2 {
   
 
   footer {
-    background-color: #71677C;
+    background-color: #823E3E;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -110,7 +110,7 @@ h2 {
   }
   
   footer .contact-info {
-    color: #DDA77B;
+    color: #93A29B;
     font-size: .9rem;
     margin-left: 1rem;
   }
@@ -121,7 +121,7 @@ h2 {
   }
   
   footer .social-links a {
-    color: #DDA77B;
+    color: #DCBF85;
     text-decoration: none;
     font-size: .9rem;
     margin-left: 1rem;
