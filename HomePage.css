@@ -3,23 +3,23 @@ body {
   font-family: 'Roboto', sans-serif;
   margin: 0;
   padding: 0;
-  background-color: #DDC8C4;
+  background-color: #FFE58F;
 }
 
 header {
-  background-size: cover;
   background-position: fixed;
   top: 0;
-  height: 100vh;
+  height: 40vh;
   display: flex;
   flex-direction: column;
   text-align: center;
   padding: 0 20px;
+  background-image: url("/Users/nevaaa/Desktop/Enterprise Computing/img/e1888d8777b9354a5a03d3fa525b38b5.jpg");;
 }
   h1 {
    
     display: block;
-    color: #13070C;
+    color: #B00014;
     text-align: center;
     padding: 14px 16px;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
@@ -34,10 +34,10 @@ header {
 
 h2 {
     display: block;
-    color: #13070C;
+    color: #80010F;
     text-align: center;
     text-decoration: none;
-    font-family: "Sofia";
+    font-family: "Roboto+Condensed";
     font-weight: 400;
     font-style: normal;
     font-size: 2rem; 
@@ -55,14 +55,14 @@ h2 {
   }
   
   nav {
-    background-color: #DDC8C4;
+    background-color: #F0A202;
     overflow: hidden;
   }
   
   nav a {
     float: left;
     display: block;
-    color: #6B4D57;
+    color: #FDE0BF;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
@@ -73,8 +73,8 @@ h2 {
 
   
       nav a:hover {
-        background-color: #6B4D57;
-        color: #823E3E;
+        background-color: #FDE0BF;
+        color: #F0A202;
     }
   
   .nav-logo {
@@ -101,7 +101,7 @@ h2 {
   
 
   footer {
-    background-color: #823E3E;
+    background-color: #F0A202;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -110,7 +110,7 @@ h2 {
   }
   
   footer .contact-info {
-    color: #93A29B;
+    color: #80010F;
     font-size: .9rem;
     margin-left: 1rem;
   }
@@ -121,8 +121,52 @@ h2 {
   }
   
   footer .social-links a {
-    color: #DCBF85;
+    color: #80010F;
     text-decoration: none;
     font-size: .9rem;
     margin-left: 1rem;
+  }
+
+  .image-container {
+    display: flex;
+    align-items: center;
+    margin-top: 1px;
+  }
+  
+  .image {
+    width: calc(33.333%);
+    height: auto;
+    border-left: 1px solid #ccc;
+    border-right: 1px solid #ccc;
+    margin-bottom: 0px;
+  }
+  
+  @media (min-width: 768px) {
+    .image-container {
+      flex-direction: row;
+    }
+  
+    .image {
+      width: calc(33.333%);
+    }
+  }
+
+  .subtitle-container {
+    text-align: center;
+    background-color: #FFE58F;
+  }
+  
+  .subtitle {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color:#80010F;
+    font-family: "Roboto+Condensed";
+    margin-bottom: 10px;
+  }
+  
+  .info {
+    font-size: 1rem;
+    margin-bottom: 20px;
+    font-family: "Sofia";
+    color:#80010F;
   }
