@@ -174,53 +174,16 @@ header {
     border: none; 
   }
 
-  .amenities-container {
-    width: 80%; 
-    margin: 40px auto; 
-    background-color: #ffb868; 
-    padding: 20px;
-    border: 1px solid #ffa033; 
-    border-radius: 10px; 
-    text-align: center; 
+  .image-container {
+    display: flex;
+    justify-content: space-between;
+    border: 10px solid #ffb868;
+    padding: 10px;
+    margin-bottom: 20px;
   }
   
-  .amenities-container h3 {
-    font-size: 24px; 
-    color: #155400;
-    margin-bottom: 20px; 
-  }
-  
-  .amenities-container ul {
-    list-style: none; 
-    padding: 0; 
-    margin: 0; 
-  }
-  
-  .amenities-container li {
-    width: 100%; 
-    margin-bottom: 20px; 
-    text-align: left;
-  }
-  
-  .amenities-container h4 {
-    font-size: 18px; 
-    color: #155400;
-    margin-bottom: 10px; 
-  }
-  
-  .amenities-container li ul {
-    list-style: none; 
-    padding: 0; 
-    margin: 0; 
-    display: flex; 
-    justify-content: space-between; 
-    align-items: center;
-    flex-wrap: wrap; 
-    color: #155400;
-
-  }
-  
-  .amenities-container li ul li {
-    width: 30%; 
+  .image {
+    width: 31%;
+    border: 5px solid #ffa033;
     margin-bottom: 10px;
   }
