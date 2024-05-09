@@ -104,7 +104,6 @@ body::after {
     text-align: center;
   }
   
-
   footer {
     background-color: #ffa033;
     display: flex;
@@ -114,7 +113,7 @@ body::after {
   }
   
   footer .contact-info {
-    color: #80010F;
+    color: #ffffff;
     font-size: .9rem;
     margin-left: 1rem;
   }
@@ -125,7 +124,7 @@ body::after {
   }
   
   footer .social-links a {
-    color: #80010F;
+    color: #ffffff;
     text-decoration: none;
     font-size: .9rem;
     margin-left: 1rem;
@@ -158,4 +157,6 @@ h1 {
   font-size: 4rem; 
   padding: 10px 0; 
 }
+
+
 
