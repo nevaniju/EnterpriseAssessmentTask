@@ -19,7 +19,7 @@ header {
   body::after {
     content: "";
     display: block;
-    height: 1o0vh;
+    height: 1vh;
   }
   
 .navbar {
@@ -27,6 +27,8 @@ header {
   background-color: #ffa033;
   font-family: "Pacifico";
 }
+
+
 
 .navbar a {
   font-family: "Pacifico";

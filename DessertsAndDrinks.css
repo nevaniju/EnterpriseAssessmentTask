@@ -6,13 +6,13 @@ body {
 h1 {
   font-size: 3rem;
   font-weight: bold;
-  color: #994f00;
+  color: #ffa033;
   text-align: center;
   margin-top: 2rem;
   margin-bottom: 1rem;
-  background-color: #db9e58;
-  border-radius: 10px;
-  border-width: 50%;
+  text-shadow: 1px 1px 2px #bc6400;
+  outline: 2px solid #ffa033;
+  padding: 5px;
 }
 
 header {
@@ -162,7 +162,7 @@ header {
   }
   
   .product-item {
-    border: 5px solid #ffa033;
+    border: 1px solid #ffa033;
     border-radius: 10px;
     padding: 15px;
     transition: all 0.3s ease;
@@ -180,3 +180,18 @@ header {
   .product-item:hover {
     transform: scale(1.05);
   }
+
+  .add-to-cart {
+    background-color: #ff6f61; 
+    border: none;
+    color: white;
+    padding: 5px 10px; 
+    text-align: center;
+    text-decoration: none;
+    font-size: 12px; 
+    cursor: pointer;
+}
+
+.add-to-cart:hover {
+  background-color: #ffa033;
+}
