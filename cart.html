@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cart</title>
+</head>
+<body>
+  <h1>Cart</h1>
+  <div class="cart-display"></div>
+  <button id="checkout-button">Checkout</button>
+
+  <script>
+    // Get the cart items from local storage
+    const cartItems = JSON.parse(localStorage.getItem('cart')) || [];
+
+    // Function to update the cart display
+    function updateCartDisplay() {
+      // Select the cart display element
+      const cartDisplay = document.querySelector('.cart-display');
+
+      // Clear the cart display
+      cartDisplay.innerHTML = '';
+
+      // Loop through the cart array
+      cartItems.forEach((item) => {
+        // Create a new element for the cart item
+        const cartItemElement = document.createElement('div');
+        cartItemElement.innerText = `${item.title} (${item.price.toFixed(2)}) x ${item.quantity}`;
+
+        // Add the cart item element to the cart display
+        cartDisplay.appendChild(cartItemElement);
+      });
+
+      // Display the total price of the cart
+      const totalPrice = cartItems.reduce((total, item) => total + item.price * item.quantity, 0);
+      const totalPriceElement = document.createElement('div');
+      totalPriceElement.innerText = `Total: ${totalPrice.toFixed(2)}`;
+      cartDisplay.appendChild(totalPriceElement);
+    }
+
+    // Call the updateCartDisplay functionupdateCartDisplay();
+
+    // Select the checkout button
+    const checkoutButton = document.querySelector('#checkout-button');
+
+    // Add event listener to the checkout button
+    checkoutButton.addEventListener('click', () => {
+      // Redirect the user to the checkout page
+      window.location.href = 'checkout.html';
+    });
+  </script>
+</body>
+</html>
