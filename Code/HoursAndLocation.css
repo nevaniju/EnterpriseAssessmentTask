@@ -1,0 +1,227 @@
+body {
+  font-family: "Pacifico";
+  background-color: #FFF4E5;
+}
+
+h1 {
+  font-size: 3rem;
+  font-weight: bold;
+  color: #800020;
+  text-align: center;
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+  text-shadow: 1px 1px 2px #801818;
+  outline: 2px solid #59260B;
+  padding: 5px;
+}
+
+
+header {
+  background-position: fixed;
+  top: 0;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  padding: 0 0px;
+  background-color: #DAA06D;
+}
+
+
+  body::after {
+    content: "";
+    display: block;
+    height: 1vh;
+  }
+  
+.navbar {
+  overflow: hidden;
+  background-color: #801818;
+  font-family: "Pacifico";
+}
+
+
+
+.navbar a {
+  font-family: "Pacifico";
+  float: left;
+  font-size: 20px;
+  color: #DAA06D;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.dropdown {
+  float: left;
+  overflow: hidden;
+  border: 0;
+}
+
+.dropdown .dropbtn {
+  font-size: 20px;
+  font-family: "Pacifico";
+  border: none;
+  outline: none;
+  color: #DAA06D;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: "Pacifico";
+  margin: 0; 
+}
+
+.navbar a:hover, .dropdown:hover .dropbtn {
+  background-color: #DAA06D;
+  color: #80010F;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  font-family: "Pacifico";
+  background-color: #801818;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  float: none;
+  color: #DAA06D;
+  font-family: "Pacifico";
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {
+  background-color: #DAA06D;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+  nav {
+    background-color: #801818;
+    overflow: hidden;
+  }
+  
+  nav a {
+    float: left;
+    display: block;
+    color: #DAA06D;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-family: "Pacifico";
+    font-weight: 400;
+    font-style: cursive;
+      }
+
+  
+      nav a:hover {
+        background-color: #DAA06D;
+        color: #801818;
+    }
+ 
+  
+  .center {
+    text-align: center;
+  }
+  
+
+  footer {
+    background-color: #801818;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+  }
+  
+  footer .contact-info {
+    color: #DAA06D;
+    font-size: .9rem;
+    margin-left: 1rem;
+  }
+  
+  footer .social-links {
+    display: flex;
+    margin-right: 1rem;
+  }
+  
+  footer .social-links a {
+    color: #80010F;
+    text-decoration: none;
+    font-size: .9rem;
+    margin-left: 1rem;
+  }
+
+
+.map-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 50px;
+}
+
+.map-wrapper {
+  border: 20px solid #800020;
+  width: 100%;
+  height: 450px;
+}
+
+.map-wrapper iframe {
+  width: 100%;
+  height: 100%;
+  border: 40px solid #800020;;
+}
+
+.info-box {
+  background-color: #800020; 
+  padding: 20px;
+  border: 1px solid #DAA06D; 
+  border-radius: 10px; 
+  width: 30%; 
+  margin-left: 15px; 
+  margin-right: auto;
+  margin-top: 15px;
+  text-align: center; 
+  font-family: "Sedan SC", serif;
+  font-size: 20px; 
+  color: #AF6E4D; 
+}
+
+.info-box p {
+  margin-bottom: 20px; 
+}
+
+.info-box2 {
+  background-color: #800020; 
+  padding: 20px;
+  border: 1px solid #DAA06D; 
+  border-radius: 10px; 
+  width: 60%; 
+  margin-left: auto; 
+  margin-right: 15px;
+  margin-top: 15px;
+  text-align: center; 
+  font-family: "Sedan SC", serif;
+  font-size: 20px; 
+  color: #DAA06D;
+}
+
+.info-box-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-bottom: 10px;
+}
+
+.h3 {
+  color:#DAA06D;
+  font-size: 1rem;
+  font-family: "Sedan SC", serif;
+}
+

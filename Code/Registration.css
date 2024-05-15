@@ -1,0 +1,254 @@
+body {
+  font-family: "Pacifico";
+  background-color: #FFF4E5;
+}
+
+h1 {
+  font-size: 3rem;
+  font-weight: bold;
+  color: #800020;
+  text-align: center;
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+  text-shadow: 1px 1px 2px #801818;
+  outline: 2px solid #59260B;
+  padding: 5px;
+}
+
+
+header {
+  background-position: fixed;
+  top: 0;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  padding: 0 0px;
+  background-color: #DAA06D;
+}
+
+
+  body::after {
+    content: "";
+    display: block;
+    height: 1vh;
+  }
+  
+.navbar {
+  overflow: hidden;
+  background-color: #801818;
+  font-family: "Pacifico";
+}
+
+
+
+.navbar a {
+  font-family: "Pacifico";
+  float: left;
+  font-size: 20px;
+  color: #DAA06D;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.dropdown {
+  float: left;
+  overflow: hidden;
+  border: 0;
+}
+
+.dropdown .dropbtn {
+  font-size: 20px;
+  font-family: "Pacifico";
+  border: none;
+  outline: none;
+  color: #DAA06D;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: "Pacifico";
+  margin: 0; 
+}
+
+.navbar a:hover, .dropdown:hover .dropbtn {
+  background-color: #DAA06D;
+  color: #80010F;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  font-family: "Pacifico";
+  background-color: #801818;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  float: none;
+  color: #DAA06D;
+  font-family: "Pacifico";
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {
+  background-color: #DAA06D;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+  nav {
+    background-color: #801818;
+    overflow: hidden;
+  }
+  
+  nav a {
+    float: left;
+    display: block;
+    color: #DAA06D;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-family: "Pacifico";
+    font-weight: 400;
+    font-style: cursive;
+      }
+
+  
+      nav a:hover {
+        background-color: #DAA06D;
+        color: #801818;
+    }
+ 
+  
+  .center {
+    text-align: center;
+  }
+  
+
+  footer {
+    background-color: #801818;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+  }
+  
+  footer .contact-info {
+    color: #DAA06D;
+    font-size: .9rem;
+    margin-left: 1rem;
+  }
+  
+  footer .social-links {
+    display: flex;
+    margin-right: 1rem;
+  }
+  
+  footer .social-links a {
+    color: #80010F;
+    text-decoration: none;
+    font-size: .9rem;
+    margin-left: 1rem;
+  }
+
+
+  #registration-form {
+    margin: 20px auto; 
+    padding: 20px;
+    font-family: "Pacifico";
+    color: #80010F;
+    background-color: #DAA06D;
+    border: 1px solid #80010F;
+    border-radius: 4px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    width: 50%; 
+    margin-bottom: 20px;
+  }
+  
+  #registration-form h2 {
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 20px;
+    font-size: 24px;
+    font-weight: bold;
+    color: #80010F;
+  }
+  
+  #registration-form label {
+    display: block;
+    margin-top: 10px;
+    font-size: 16px;
+    font-weight: bold;
+    color: #80010F;
+  }
+  
+  #registration-form input[type="email"],
+  #registration-form input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    font-size: 16px;
+    border: 1px solid #80010F;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  
+  #registration-form input[type="checkbox"] {
+    margin-top: 10px;
+    margin-right: 10px;
+  }
+  
+  #registration-form label[for="newsletter"] {
+    display: inline-block;
+    vertical-align: middle;
+  }
+  
+  #registration-form input[type="submit"] {
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #DAA06D;
+    color: #80010F;
+    border: solid #80010F;
+    border-radius: 4px;
+    cursor: pointer;
+    font-family: "Pacifico";
+    text-align: center;
+  }
+  
+  #registration-form input[type="submit"]:hover {
+    background-color: #80010F;
+  }
+  
+  h2 {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #DAA06D;
+    text-align: center;
+    margin-bottom: 1rem;
+    outline: 2px solid #DAA06D;
+    padding: 5px;
+    outline-width: 50%;
+  }
+
+
+  .image-container {
+    display: flex;
+    justify-content: space-between;
+    border: 10px solid #801818;
+    padding: 10px;
+    margin-bottom: 20px;
+  }
+
+  .image {
+    width: 31%;
+    border: 5px solid #801818;
+    margin-bottom: 10px;
+  }
+
