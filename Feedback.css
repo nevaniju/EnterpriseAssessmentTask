@@ -1,4 +1,9 @@
 
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
 body {
   font-family: "Pacifico";
   background-color: #FFF4E5;
@@ -138,25 +143,26 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 1rem;
+    padding: 2rem; 
+    border-top: 1px solid #801818; 
   }
   
   footer .contact-info {
     color: #DAA06D;
-    font-size: .9rem;
-    margin-left: 1rem;
+    font-size: 1.2rem; 
+    margin-left: 2rem;
   }
   
   footer .social-links {
     display: flex;
-    margin-right: 1rem;
+    margin-right: 2rem;
   }
   
   footer .social-links a {
-    color: #80010F;
+    color: #DAA06D;
     text-decoration: none;
-    font-size: .9rem;
-    margin-left: 1rem;
+    font-size: 1.2rem; 
+    margin-left: 2rem;
   }
 
 #feedback-form {
@@ -300,7 +306,7 @@ h2 {
 }
 
 .review {
-  background-color: #AF6E4D;
+  background-color: #FFF4E5;
   border-color: #59260B;
 }
 

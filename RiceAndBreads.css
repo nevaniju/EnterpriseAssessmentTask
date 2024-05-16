@@ -3,6 +3,12 @@ body {
   background-color: #FFF4E5;
 }
 
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
 h1 {
   font-size: 3rem;
   font-weight: bold;
@@ -137,27 +143,28 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 1rem;
+    padding: 2rem; 
+    border-top: 1px solid #801818; 
   }
   
   footer .contact-info {
     color: #DAA06D;
-    font-size: .9rem;
-    margin-left: 1rem;
+    font-size: 1.2rem; 
+    margin-left: 2rem;
   }
   
   footer .social-links {
     display: flex;
-    margin-right: 1rem;
+    margin-right: 2rem;
   }
   
   footer .social-links a {
-    color: #80010F;
+    color: #DAA06D;
     text-decoration: none;
-    font-size: .9rem;
-    margin-left: 1rem;
+    font-size: 1.2rem; 
+    margin-left: 2rem;
   }
-
+  
   .product-grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
