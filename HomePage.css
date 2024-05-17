@@ -106,8 +106,31 @@ nav a:hover {
   color: #801818;
 }
 
+
 .center {
   text-align: center;
+}
+
+.back-to-top {
+  position: fixed;
+  bottom: 2rem;
+  right: 2rem;
+  background-color: #801818;
+  color: #DAA06D;
+  padding: 0.5rem;
+  border-radius: 50%;
+  text-align: center;
+  width: 4rem;
+  height: 4rem;
+  font-size: 1.5rem;
+  text-decoration: none;
+  box-shadow: 0 0 1rem rgba(0, 0, 0, 0.2);
+  transition: background-color 0.3s ease;
+}
+
+.back-to-top:hover {
+  background-color: #DAA06D;
+  color: #801818;
 }
 
 footer {
@@ -115,28 +138,48 @@ footer {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 2rem; 
-  border-top: 1px solid #801818; 
+  padding: 2rem;
+  border-top: 1px solid #801818;
+  font-family: "pacifico";
+  flex-wrap: wrap;
 }
 
 footer .contact-info {
   color: #DAA06D;
-  font-size: 1.2rem; 
+  font-size: 1.2rem;
   margin-left: 2rem;
+  flex: 1;
+}
+
+footer .copyright {
+  color: #DAA06D;
+  font-size: 1.2rem;
+  text-align: center;
+  flex: 1;
 }
 
 footer .social-links {
   display: flex;
   margin-right: 2rem;
+  flex: 1;
+  justify-content: flex-end;
 }
 
 footer .social-links a {
   color: #DAA06D;
   text-decoration: none;
-  font-size: 1.2rem; 
+  font-size: 1.5rem;
   margin-left: 2rem;
+  transition: color 0.3s ease;
 }
 
+footer .social-links a:hover {
+  color: #FFF;
+}
+
+footer .social-links i {
+  font-size: 1.5rem;
+}
 .info-box {
   background-color: #801818; 
   padding: 20px;
@@ -181,6 +224,25 @@ footer .social-links a {
   width: 31%;
   border: 5px solid #801818;
   margin-bottom: 10px;
+}
+
+
+
+.learn-more-button {
+  display: inline-block;
+  background-color: #600000;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  text-transform: uppercase;
+  font-size: 14px;
+  cursor: pointer;
+  margin-top: 20px;
+}
+
+.learn-more-button:hover {
+  background-color: #daa06dbe;
 }
 
 /* Only for when the screen is being resized to fit the Iphone 14 Pro Max */

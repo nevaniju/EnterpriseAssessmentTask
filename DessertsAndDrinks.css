@@ -137,32 +137,52 @@ header {
     text-align: center;
   }
   
-
   footer {
     background-color: #801818;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 2rem; 
-    border-top: 1px solid #801818; 
+    padding: 2rem;
+    border-top: 1px solid #801818;
+    font-family: "pacifico";
+    flex-wrap: wrap;
   }
   
   footer .contact-info {
     color: #DAA06D;
-    font-size: 1.2rem; 
+    font-size: 1.2rem;
     margin-left: 2rem;
+    flex: 1;
+  }
+  
+  footer .copyright {
+    color: #DAA06D;
+    font-size: 1.2rem;
+    text-align: center;
+    flex: 1;
   }
   
   footer .social-links {
     display: flex;
     margin-right: 2rem;
+    flex: 1;
+    justify-content: flex-end;
   }
   
   footer .social-links a {
     color: #DAA06D;
     text-decoration: none;
-    font-size: 1.2rem; 
+    font-size: 1.5rem;
     margin-left: 2rem;
+    transition: color 0.3s ease;
+  }
+  
+  footer .social-links a:hover {
+    color: #FFF;
+  }
+  
+  footer .social-links i {
+    font-size: 1.5rem;
   }
 
   .product-grid {
