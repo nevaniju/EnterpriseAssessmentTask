@@ -252,3 +252,32 @@ body {
         text-align: center;
         font-size: 25;
     }
+    
+    @media (max-width: 768px) {
+      .spice-grid {
+        grid-template-columns: repeat(2, 50%);
+      }
+    }
+    
+    @media (max-width: 480px) {
+      .spice-grid {
+        grid-template-columns: 100%;
+      }
+    
+      .spice-card {
+        width: 100%;
+        height: auto;
+      }
+    
+      .spice-info h2 {
+        font-size: 1.5rem;
+      }
+    
+      .spice-info p {
+        font-size: 1rem;
+      }
+    
+      .h3 {
+        font-size: 2.5rem;
+      }
+    }
