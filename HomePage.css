@@ -230,7 +230,7 @@ footer .social-links i {
 
 .learn-more-button {
   display: inline-block;
-  background-color: #600000;
+  background-color: #e2a200;
   color: #fff;
   border: none;
   border-radius: 5px;
@@ -244,6 +244,8 @@ footer .social-links i {
 .learn-more-button:hover {
   background-color: #daa06dbe;
 }
+
+
 
 /* Only for when the screen is being resized to fit the Iphone 14 Pro Max */
 
